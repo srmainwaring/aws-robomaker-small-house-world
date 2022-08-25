@@ -8,19 +8,30 @@
       <collision name="collision">
         <geometry>
           <mesh>
-	  <uri>model://aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_collision.DAE</uri>
+            <uri>model://aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_collision.DAE</uri>
             <scale>1 1 1</scale>
           </mesh>
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <meta>
+          <layer> 1 </layer>
+        </meta>
+        <!-- <material>
+          <diffuse>1 1 1</diffuse>
+          <specular>1 1 1</specular>
+          <pbr>
+            <metal>
+                <albedo_map>model://aws_robomaker_residential_AirconditionerB_01/materials/textures/aws_AirconditionerB_01.png</albedo_map>
+            </metal>
+          </pbr>
+        </material> -->
+      </visual>
     </link>
   </model>
 </sdf>

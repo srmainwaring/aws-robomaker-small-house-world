@@ -5,9 +5,7 @@
       <inertial>
         <mass>8.1</mass>
       </inertial>
-      
       <collision name="collision">
-
         <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_collision.DAE</uri>
@@ -15,10 +13,9 @@
             <scale>1 1 0.95</scale>
           </mesh>
         </geometry>
-
         <surface>
           <friction>
-            <ode> 
+            <ode>
               <mu>100</mu>
               <mu2>50</mu2>
             </ode>
@@ -29,21 +26,19 @@
             </ode>
           </contact>
         </surface>
-
         <pose>0 0 -0.01 0 0 0 </pose>
       </collision>
-      
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_visual.DAE</uri>
           </mesh>
         </geometry>
-      <meta> <layer> 1 </layer></meta>
-</visual>
+        <meta>
+          <layer> 1 </layer>
+        </meta>
+      </visual>
     </link>
-
     <static>1</static>
-    
   </model>
 </sdf>

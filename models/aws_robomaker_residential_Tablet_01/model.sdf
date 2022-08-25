@@ -22,7 +22,7 @@
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_visual.DAE</uri>
           </mesh>
@@ -32,6 +32,6 @@
         </meta>
       </visual>
     </link>
-	<static>1</static>
+    <static>1</static>
   </model>
 </sdf>

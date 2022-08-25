@@ -14,18 +14,16 @@
         </geometry>
       </collision>
       <visual name="visual">
-	    <geometry>
+        <geometry>
           <mesh>
             <uri>model://aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_visual.DAE</uri>
           </mesh>
         </geometry>
-
-	<meta> 
-	    <layer> 3 </layer>
-	</meta>
+        <meta>
+          <layer> 3 </layer>
+        </meta>
       </visual>
     </link>
     <static>1</static>
-
   </model>
 </sdf>
